@@ -1,0 +1,59 @@
+#header-id {
+    width: 100%;
+    height: 100%;
+    margin-top: 7px;
+    background-color: #f3be7c;
+    color: #fd8553;
+    opacity: 0.7;
+    display: flex;
+    flex-wrap: wrap;
+    .header-logo {
+        flex-grow: 2;
+        align-self: center;
+    }
+    .header-settings {
+        flex-grow: 0;
+        align-self: center;
+        margin-right: 40px;
+        button {
+            border-radius: 33px;
+            padding: 10px 20px 10px 20px;
+            color: black;
+            font-weight: 600;
+            background-color: ivory;
+        }
+    }
+    .header-logo {
+        margin-left: 40px;
+        img {
+            width: 40px;
+            height: 40px;
+        }
+        a {
+            color: #380202;
+        }
+        font-family: 'Snell Roundhand',
+        'cursive';
+        font-size: 30px;
+        color: red;
+    }
+    .navigation-bar {
+        font-size: 15px;
+        color: #380202;
+        flex-grow: 1;
+        display: flex;
+        flex-flow: row wrap;
+        .nav-page {
+            padding: 14px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            cursor: pointer;
+            a {
+                color: #380202;
+                margin: auto;
+            }
+        }
+    }
+}

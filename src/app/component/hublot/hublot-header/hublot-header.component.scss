@@ -1,0 +1,74 @@
+#header-id {
+    width: 100%;
+    height: 750px; // color: white;
+    background-image: url('/../../assets/images/MP-09_Carbon_Background.jpg');
+    .header-bar {
+        width: 100%;
+        padding: 10px;
+        position: fixed;
+        display: flex;
+        flex-wrap: wrap; // background-color: white;
+        .header-logo {
+            font-size: 32px;
+            flex-grow: 4;
+            align-self: center;
+            font-weight: 700;
+            margin-left: 18px;
+            background-color: red;
+            img {
+                width: 40px;
+                height: 40px;
+            }
+            a {
+                color: white;
+            }
+            .style1 {
+                a {
+                    color: red;
+                }
+                background-color: red;
+            }
+            .style2 {
+                a {
+                    color: yellow;
+                }
+                background-color: white;
+            }
+        }
+        .navigation-bar {
+            font-size: 11px;
+            flex-grow: 1;
+            display: flex;
+            flex-flow: row wrap;
+            .nav-page {
+                padding: 14px;
+                flex-grow: 0;
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                font-weight: 600;
+                cursor: pointer;
+                a {
+                    color: white;
+                    margin: auto;
+                }
+            }
+        }
+        .header-settings {
+            font-size: 11px;
+            color: white;
+            flex-grow: 1;
+            margin-right: 40px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-end;
+            .nav-settings {
+                padding: 14px;
+            }
+            .search-icon {
+                width: 20px;
+                height: 15px;
+            }
+        }
+    }
+}
